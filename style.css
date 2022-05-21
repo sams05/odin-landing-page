@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -18,7 +22,7 @@ ul {
 /* TODO: add in all other sections */
 .hero,
 .footer {
-    padding: 0 100px;
+    padding: 0 200px;
 }
 
 .hero,
@@ -30,7 +34,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding-top: 16px;
 }
 
 ul a {
@@ -45,4 +49,49 @@ ul a {
     color: #f9faf8;
 }
 
+.hero-container {
+    display: flex;
+    padding: 100px 0;
+    gap: 16px;
+}
+
+.hero-left,
+.hero-right {
+    flex: 1;
+}
+
+.hero-left h1 {
+    /* Hero main text */
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero p {
+    /* Hero secondary text */
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    width: 125px;
+    height: 35px;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.hero-right {
+    background-color: #6d747d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
 
