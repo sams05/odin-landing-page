@@ -21,8 +21,15 @@ ul {
 
 /* TODO: add in all other sections */
 .hero,
+.footer,
+.info,
+.quote,
 .footer {
     padding: 0 200px;
+}
+
+.hero {
+    padding-bottom: 100px;
 }
 
 .hero,
@@ -51,7 +58,7 @@ ul a {
 
 .hero-container {
     display: flex;
-    padding: 100px 0;
+    padding-top: 100px;
     gap: 16px;
 }
 
@@ -92,6 +99,45 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 8px;
 }
 
+.info {
+    padding-bottom: 100px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-img {
+    /* Border around info section images */
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.info-piece {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 175px;
+}
+
+/* Caption for info images */
+.info-piece p {
+    margin-top: 8px;
+    color: #545d6b;
+    font-size: 18px;
+}
