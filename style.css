@@ -197,3 +197,13 @@ button {
 .banner p {
     color: #e5e7eb
 }
+
+.footer {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 18px;
+}
