@@ -27,6 +27,7 @@ ul {
 .footer,
 .info,
 .quote,
+.banner,
 .footer {
     padding: 0 200px;
 }
@@ -162,3 +163,37 @@ button {
     text-align: right;
 }
 
+.banner {
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.banner-container {
+    flex: 1;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 40px 0;
+
+    border-radius: 8px;
+
+    color: white;
+}
+
+.banner h3 {
+    margin: 0;
+}
+
+.banner button {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p {
+    color: #e5e7eb
+}
