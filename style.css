@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 ul {
     /* Remove some default settings */
     padding: 0;
@@ -19,7 +23,6 @@ ul {
     gap: 16px;
 }
 
-/* TODO: add in all other sections */
 .hero,
 .footer,
 .info,
@@ -79,7 +82,6 @@ ul a {
     /* Hero secondary text */
     font-size: 18px;
     color: #e5e7eb;
-    margin: 0;
 }
 
 button {
@@ -141,3 +143,22 @@ button {
     color: #545d6b;
     font-size: 18px;
 }
+
+.quote {
+    padding: 100px 300px;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: right;
+}
+
